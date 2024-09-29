@@ -1,23 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
 
+// //import Matrix from './component/Matrix';
+// import './App.css'
+// // import ParentComponent from './component/ParentComponent';
+// // import Wazir from './component/Wazir';
+
+// function App() {
+//   return (
+//     // <div className="App">
+//     //   {/* <Wazir/> */}
+//     //   <ParentComponent/>
+//     // </div>
+//     // <div className="App">
+//     //   <h1>3x3 Matrix</h1>
+//     //   <Matrix/>
+//     // </div>
+//     <>
+//       <div>hello</div>
+//     </>
+//   );
+// }
+
+// export default App;
+import React from 'react';
+import Header from './trijal-electrikals/Header';
+import HeroSection from './trijal-electrikals/HeroSection';
+import AboutSection from './trijal-electrikals/AboutSection';
+import ServicesSection from './trijal-electrikals/ServicesSection';
+import TestimonialsSection from './trijal-electrikals/TestimonialsSection';
+import ContactSection from './trijal-electrikals/ContactSection';
+import Footer from './trijal-electrikals/Footer';
+import './App.css'
+import Partnership from './trijal-electrikals/Partnership';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Partnership />
+      <HeroSection />
+      <AboutSection />
+      <ServicesSection />
+      <TestimonialsSection />
+      <ContactSection />
+      <Footer />
     </div>
   );
 }
